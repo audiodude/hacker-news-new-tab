@@ -2,6 +2,10 @@
 
 A Chrome extension that automatically opens all external content links on Hacker News in new tabs, making it easier to browse multiple articles without losing your place in the discussion.
 
+## Why it's notable
+
+Unlike the [dozens](https://chromewebstore.google.com/detail/hacker-news-new-tab/fmlhpmapmklbhoekajeimbodkpinefmo?hl=+en) [of](https://github.com/jcordeiro/HackerNewsExtension) [other](https://chromewebstore.google.com/detail/hacker-news-new-tab/fmlhpmapmklbhoekajeimbodkpinefmo?hl=en-GB) [extensions](https://github.com/jay3sh/hnopennewtab) that [already](https://github.com/tcjr/new-tab-links-extension) [exist](https://github.com/mukwevhom/hackernews-newtab) for this purpose, this version has been recently created and is updated for [Chrome Manifest v3](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
+
 ## What it does
 
 This extension modifies the behavior of links on Hacker News (news.ycombinator.com) by:
