@@ -24,26 +24,22 @@ The extension specifically excludes internal HN links such as:
 
 ### Method 1: Load as Unpacked Extension (Developer Mode)
 
-1. **Enable Developer Mode in Chrome:**
+1. **Download the extension**
+   - Get the [zip](https://github.com/audiodude/hacker-news-new-tab/archive/refs/tags/v1.0.0.zip) or the [tar.gz](https://github.com/audiodude/hacker-news-new-tab/archive/refs/tags/v1.0.0.tar.gz) from the [Release page](https://github.com/audiodude/hacker-news-new-tab/releases/tag/v1.0.0) and decompress the folder. These archives are just the files in this repo, you could also `git clone` if you like.
+
+2. **Enable Developer Mode in Chrome:**
    - Open Chrome and navigate to `chrome://extensions/`
    - Toggle the "Developer mode" switch in the top right corner
 
-2. **Load the Extension:**
+3. **Load the Extension:**
    - Click the "Load unpacked" button
    - Navigate to and select the folder containing this extension
    - The extension will appear in your extensions list
 
-3. **Verify Installation:**
+4. **Verify Installation:**
    - Visit [Hacker News](https://news.ycombinator.com)
    - Click on any article link - it should open in a new tab
    - Comment links should still open in the same tab
-
-### Method 2: Pack and Install (Optional)
-
-1. In `chrome://extensions/`, click "Pack extension"
-2. Select the extension folder
-3. Chrome will create a `.crx` file
-4. Drag the `.crx` file into the extensions page to install
 
 ## Usage
 
