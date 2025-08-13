@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "HN New Tab",
+  "name": "Hacker News New Tab",
   "version": "1.0",
-  "description": "Opens all links on Hacker News in new tabs",
+  "description": "Opens all content links on Hacker News in new tabs",
   "content_scripts": [
     {
       "matches": ["*://news.ycombinator.com/*"],
